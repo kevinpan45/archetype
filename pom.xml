@@ -88,7 +88,7 @@
 		<repository>
 			<id>github</id>
 			<name>GitHub Packages</name>
-			<url>https://maven.pkg.github.com/kevinpan45/basic-framework</url>
+			<url>https://maven.pkg.github.com/kevinpan45/archetype</url>
 		</repository>
 	</distributionManagement>
 </project>
