@@ -24,7 +24,7 @@
   </properties>
 
   <dependencies>
-    
+
     <dependency>
       <groupId>io.github.kevinpan45</groupId>
       <artifactId>basic-framework</artifactId>
@@ -85,10 +85,18 @@
     </pluginManagement>
   </build>
   <distributionManagement>
-		<repository>
-			<id>github</id>
-			<name>GitHub Packages</name>
-			<url>https://maven.pkg.github.com/kevinpan45/archetype</url>
-		</repository>
-	</distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/kevinpan45/archetype</url>
+    </repository>
+  </distributionManagement>
+
+  <repositories>
+    <repository>
+      <id>github</id>
+      <name>GitHub Maven Packages</name>
+      <url>https://maven.pkg.github.com/kevinpan45/basic-framework</url>
+    </repository>
+  </repositories>
 </project>
