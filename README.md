@@ -28,7 +28,7 @@ mvn archetype:generate -B -DarchetypeGroupId=io.github.kevinpan45 -DarchetypeArt
 # Design
 
 ## Dependencies
-* Language: Java 11
+* Language: Java 17
 * Microservice: Spring cloud
 * Discovery and Config: Spring cloud config (Consul)
 * Cache: Redis
